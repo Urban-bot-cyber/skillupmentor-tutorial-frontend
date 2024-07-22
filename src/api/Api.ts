@@ -23,3 +23,6 @@ export async function apiRequest<D = Record<string, unknown>, R = unknown>(
     return error.response
   }
 }
+
+
+export * from './User'

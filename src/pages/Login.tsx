@@ -1,5 +1,5 @@
-import Layout from "components/ui/Layout"
-import { FC } from "react"
+import Layout from 'components/ui/Layout'
+import { FC } from 'react'
 
 
 const Login: FC = () => {
