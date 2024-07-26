@@ -1,5 +1,4 @@
 import {yupResolver} from '@hookform/resolvers/yup'
-import { oneOf } from 'prop-types'
 import {useForm} from 'react-hook-form'
 import * as Yup from 'yup'
 

@@ -6,7 +6,7 @@ import { RegisterUserFields } from 'hooks/react-hook-form/useRegister'
 
 export const fetchUser = async () => apiRequest<undefined, UserType>('get', apiRoutes.FETCH_USER)
 
-export const singout = async () => apiRequest<undefined, void>('post', apiRoutes.SIGNOUT)
+export const signout = async () => apiRequest<undefined, void>('post', apiRoutes.SIGNOUT)
 
 export const login = async (data: LoginUserFields) => apiRequest<LoginUserFields, UserType>('post', apiRoutes.LOGIN, data)
 
