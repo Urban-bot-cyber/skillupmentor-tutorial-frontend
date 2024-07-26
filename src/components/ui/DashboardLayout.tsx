@@ -1,6 +1,6 @@
-import { FC, ReactNode } from "react";
-import SideBar from "./SideBar";
-import TopBar from "components/TopBar";
+import { FC, ReactNode } from 'react'
+import SideBar from './SideBar'
+import TopBar from 'components/ui/TopBar'
 
 interface Props{
     children:ReactNode | ReactNode[]
