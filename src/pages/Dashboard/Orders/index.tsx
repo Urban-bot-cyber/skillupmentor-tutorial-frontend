@@ -1,5 +1,5 @@
-import DashboardLayout from "components/ui/DashboardLayout";
-import { FC } from "react";
+import DashboardLayout from 'components/ui/DashboardLayout'
+import { FC } from 'react'
 
 const DashboardOrders: FC = () => {
     return(

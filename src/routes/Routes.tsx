@@ -33,8 +33,8 @@ const DashboardProductsEdit = lazy(
 const DashboardOrders = lazy(() => import('pages/Dashboard/Orders'))
 
 /* Restricted routes */
-const Login = lazy(()=> import('pages/Login'))
-const Register = lazy(()=> import('pages/Register'))
+const Login = lazy(() => import('pages/Login'))
+const Register = lazy(() => import('pages/Register'))
 
 /* Error routes */
 const Page404 = lazy(() => import('pages/Page404'))
